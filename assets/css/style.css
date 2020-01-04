@@ -1,0 +1,185 @@
+body {
+    /* width: 960px; */
+    height: 100%;
+    font-family: "Georgia", "Times New Roman", Times serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/stripes-light.png");
+
+}
+
+nav {
+    display: block;
+    float: right;
+    margin-right: 200px;
+}
+
+
+
+header {
+    display: block;
+    background-color: white;
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin:0 0 0 0;
+    border-bottom:1px solid #666;
+}
+
+header nav {
+    display: block;
+}
+
+header nav a {
+    padding: 15px;
+    text-decoration-color: none;
+    color: #777777;
+}
+
+h1 {
+    width: 180px;
+    background-color:#4aaaa5;
+    color: white;
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+
+.pages  {
+    color: grey;
+    font-size: 12px;
+
+}
+
+#navbar {
+    width: 30%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    float: right;
+}
+
+#aboutme {
+
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+    background-color: white;
+    height: 500px;
+    width: 960px;
+    border-width: 1 1 1 1;
+    border: 1px solid grey ;
+}
+
+p {
+    font-size: 18px;
+}
+img {
+    float: left;
+    margin: 10px;
+}
+
+#portfolio {
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+    background-color: white;
+    height: 600px;
+    width: 960px;
+    border-width: 1 1 1 1;
+    border: 1px solid grey ;
+
+}
+
+
+.box-set {
+    position: relative;
+    height: 600px;
+    margin: 20px;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background:lightgray;
+    text-align: center;
+    position: relative;
+  }
+  
+.project-text {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+  .project-1 {
+  float: left;
+  margin: 20px;
+  }
+  
+  .project-2 {
+    float: left;
+    margin: 20px;
+  }
+  
+  .project-3 {
+    float: left;
+    margin: 20px;
+  }
+  .project-4 {
+    float: left;
+    margin: 20px;
+  }
+
+#contact {
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    padding: 20px;
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    border-width: 1 1 1 1;
+    border: 1px solid grey ;
+
+}
+
+.button  {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+        
+
+
+h2 {
+    color: #4aaaa5;
+}
+
+.footer {
+  height: 50px;
+  width:100%;
+  left:0px;
+  bottom: 0px;
+  margin-bottom: 0%;
+  display: block;
+  text-align: center;
+  background-color: #777777;
+  position: fixed;
+  border-width: 5px 0px 0px 0px;
+  color: white;
+  border-style: solid;
+  border-color: #4aaaa5;
+}
