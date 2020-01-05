@@ -12,7 +12,7 @@ body {
 nav {
     display: block;
     float: right;
-    margin-right: 200px;
+    margin-right: 330px;
 }
 
 
@@ -41,7 +41,7 @@ h1 {
     width: 180px;
     background-color:#4aaaa5;
     color: white;
-    margin-left: 300px;
+    margin-left: 340px;
     margin-bottom: 0px;
 }
 
@@ -67,7 +67,7 @@ h1 {
     display: block;
     padding: 20px;
     background-color: white;
-    height: 500px;
+    height: 600px;
     width: 960px;
     border-width: 1 1 1 1;
     border: 1px solid grey ;
@@ -166,6 +166,7 @@ img {
 
 h2 {
     color: #4aaaa5;
+    border-bottom:1px solid #666;
 }
 
 .footer {
